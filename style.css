@@ -1,0 +1,12 @@
+body {
+    font-size: 100%;
+    background: linear-gradient(#FA8072, #E9967A);
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
