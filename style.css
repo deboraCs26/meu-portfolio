@@ -3,10 +3,37 @@ body {
     background: linear-gradient(#FA8072, #E9967A);
 }
 
-.cabecalho-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 40px;
+.cabecalho {
+   padding: 30px;
+   
+   
+}
+.img {
+    position: relative;
+    width: 10%;
+    top: 10px;
+ 
+}
+
+nav {
+    position: absolute;
+	top: 110px;
+	right: 0;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    padding: 80px;
+    
+}
+
+nav a {
+    
+    text-transform: uppercase;
+    color: #800000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
