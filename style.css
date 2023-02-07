@@ -3,15 +3,11 @@ body {
     background: linear-gradient(#FA8072, #E9967A);
 }
 
-.cabecalho {
-   padding: 30px;
-   
-   
-}
 .img {
     position: relative;
     width: 10%;
-    top: 10px;
+    left: 250px;
+   
  
 }
 
