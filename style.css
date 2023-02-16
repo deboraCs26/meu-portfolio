@@ -21,7 +21,7 @@ body {
     width: 100px;
    
 }
-nav {
+.container-menu {
     display: flex;
     text-transform: uppercase;
 	font-weight: bold;
@@ -30,19 +30,13 @@ nav {
     gap: 100px;
 }
 
-nav li {
-   
-    display: inline;
-	
-}
-
-nav a {
+.container-menu a {
     text-transform: uppercase;
 	color: #ffffff;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
-  
+     
 }
 
 .titulo-principal {
@@ -57,8 +51,6 @@ nav a {
     margin: 0 auto;
     
 }
-   
-
 
 .conteudo-principal-paragrafo{
 
@@ -93,17 +85,35 @@ nav a {
     line-height: 30px;
     text-align: center;
 
-    
 }
-footer {
+
+.rodape {
     
     text-align: center;
-   color: bisque;
+    color: bisque;
     font-size: 22px;
     background: #708090;
-    padding: 56px 0;
+    padding: 63px 0;
     
 }
+/*pagina contato*/
+
+.contato {
+    
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 200px 0;
+  
+}
+
+button {
+    font-size: 22px;
+    padding: 9px;
+    margin: 20px 0;
+}
+
+
 
 
 

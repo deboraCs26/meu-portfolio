@@ -7,45 +7,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
     <title>Meu portfólio pessoal</title>
 
+    <script src="contato.js"></script>
+
 </head>
 
 <body>
+
     <header>
-        <div class="caixa">
+
+    <div class="container">
             <img class="img-cabecalho" src="Débora.png" alt="foto com meu nome">
 
-        <nav>
+        <div class="container-menu">
 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-          
+            <a href="index.html">Home</a>
+            <a href="contato.html">Contato</a>
 
-        </nav>
-
+        </div>
     </div>
 
     </header>
 
-    <main>
 
         <div class="contato">
 
         <p>Se você tem projetos entre em contato comigo!</p>
         
-        <button>Fale comigo</button>
+        <!--adicionando onclik-->
+        <button onclick="meuContato()">Fale comigo</button>
+        <span id="contato"></span>
+
+
+        
+
+
+        <!--alerta no contato-->
+        <script>alert('Meu contato')</script>
+
+
+
+
+
 
         </div>
         
-
-    </main>
-
 
     <footer class="rodape">
 
