@@ -27,10 +27,8 @@ header {
 
 nav {
     position: absolute;
-	width: 50%;
-    right: 30px;
-    bottom: 70px;
-
+	top: 75px;
+	right: 0;
        
 }
 
