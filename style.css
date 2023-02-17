@@ -4,97 +4,106 @@ body {
     background-image: url("fundo.jpg");
 
 }
-header {
-    background: #708090;
-}
 
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
 
-    
+.container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;   
+   justify-content: space-around;
+   background: #708090;
+   padding: 16px;
+   height: 100px;
 }
 
 .img-cabecalho {
-    position: relative;
-    width: 10%;
-    left: 250px;
-    padding: 60px 0 ;
+    height: 100px;   
+    width: 100px;
    
 }
-
-
 nav {
-    position: absolute;
-	width: 50%;
-    right: 30px;
-    bottom: 70px;
-
-       
+    display: flex;
+    text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;   
+    gap: 100px;
 }
 
 nav li {
-    display: inline-block;
-    margin: 0 50px;
-    box-sizing: border-box;
-    
+   
+    display: inline;
+	
 }
 
 nav a {
-    
     text-transform: uppercase;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 17px;
-    text-decoration: none;
-}
-   
-.titulo-principal {
-   text-align: center;
-   margin: 0 auto;
-   color: #ffffff;
-   font-size: 24;
-   padding: 40px 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+  
 }
 
-.conteudo-principal-subtitulo {
-    color: #ffffff;
+.titulo-principal {
     text-align: center;
-    width: 600px;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 20px 0;
+ }
+ 
+.conteudo-principal {
+    padding: 3em 0;
+    margin: 0 auto;
+    
 }
+   
 
 
 .conteudo-principal-paragrafo{
-    font-size: 22px;
-    width: 600px;
+
     position: relative;
     color: #ffffff;
-    left: 50px;
+    font-size: 16px;
+    line-height: 1.4em;
+    margin: 50px;
+    margin-bottom: 1.5em;
    
 }
+
 .conteudo-principal-img {
-    position: relative;
-    left: 850px;
-  
-    padding: 20px 0 ;
+      
+    position: fixed;
+    bottom: 200px;
+    right: 100px;
+
 }
 
 .conteudo-formacao-titulo {
+   
     color: #ffffff;
     text-align: center;
+    padding: 22px;
+    font-size: 22px;
+
 }
 
 .conteudo-formacao-paragrafo {
-    position:relative;
     color: #ffffff;
+    line-height: 30px;
     text-align: center;
+
+    
 }
 footer {
+    
     text-align: center;
    color: bisque;
     font-size: 22px;
-    padding: 70px 0;
     background: #708090;
+    padding: 56px 0;
+    
 }
+
+
 
