@@ -6,7 +6,7 @@ body {
 }
 
 
-.container {
+.cabecalho {
    display: flex;
    flex-direction: row;
    align-items: center;   
@@ -76,7 +76,7 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 22px;
-    font-size: 22px;
+    font-size: 20px;
 
 }
 
@@ -93,7 +93,7 @@ body {
     color: bisque;
     font-size: 22px;
     background: #708090;
-    padding: 63px 0;
+    padding: 63px ;
     
 }
 /*pagina contato*/
@@ -103,14 +103,25 @@ body {
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    padding: 200px 0;
+    padding: 200px 0 ;
   
 }
 
-button {
+.botao {
+    
+    padding: 40px 0;
+    
+}
+
+footer {
+
+    text-align: center;
+    color: bisque;
     font-size: 22px;
-    padding: 9px;
-    margin: 20px 0;
+    background: #708090;
+    padding: 50px ;
+    
+        
 }
 
 
