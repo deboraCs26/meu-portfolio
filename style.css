@@ -6,7 +6,7 @@ body {
 }
 
 
-.container {
+.cabecalho {
    display: flex;
    flex-direction: row;
    align-items: center;   
@@ -21,7 +21,7 @@ body {
     width: 100px;
    
 }
-nav {
+.container-menu {
     display: flex;
     text-transform: uppercase;
 	font-weight: bold;
@@ -30,19 +30,13 @@ nav {
     gap: 100px;
 }
 
-nav li {
-   
-    display: inline;
-	
-}
-
-nav a {
+.container-menu a {
     text-transform: uppercase;
 	color: #ffffff;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
-  
+     
 }
 
 .titulo-principal {
@@ -57,8 +51,6 @@ nav a {
     margin: 0 auto;
     
 }
-   
-
 
 .conteudo-principal-paragrafo{
 
@@ -84,7 +76,7 @@ nav a {
     color: #ffffff;
     text-align: center;
     padding: 22px;
-    font-size: 22px;
+    font-size: 20px;
 
 }
 
@@ -93,17 +85,46 @@ nav a {
     line-height: 30px;
     text-align: center;
 
-    
 }
-footer {
+
+.rodape {
     
     text-align: center;
-   color: bisque;
+    color: bisque;
     font-size: 22px;
     background: #708090;
-    padding: 56px 0;
+    padding: 63px ;
     
 }
+/*pagina contato*/
+
+.contato {
+    
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 200px 0 ;
+  
+}
+
+.botao {
+    
+    padding: 40px 0;
+    
+}
+
+footer {
+
+    text-align: center;
+    color: bisque;
+    font-size: 22px;
+    background: #708090;
+    padding: 50px ;
+    
+        
+}
+
+
 
 
 
